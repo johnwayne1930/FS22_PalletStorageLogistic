@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="productionPoint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>$l10n_shopItem_storageLogistic</name>
+        <functions>
+            <function>$l10n_function_storageLogistic</function>
+        </functions>
+        <image>store_storageLogistics.dds</image>
+        <price>50000</price>
+		<dailyUpkeep>60</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>placeable</species>
+        <category>productionPoints</category>
+        <brush>
+            <type>placeable</type>
+            <category>production</category>
+            <tab>factories</tab>
+        </brush>
+    </storeData>
+
+    <base>
+        <filename>warehouse02.i3d</filename>
+        <canBeRenamed>true</canBeRenamed>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" >
+        <testAreas>
+            <testArea startNode="testArea1Start" endNode="testArea1End" />
+        </testAreas>
+
+        <sounds>
+            <place template="smallImp" />
+        </sounds>
+    </placement>
+
+    <clearAreas>
+        <clearArea startNode="clearArea1Start" widthNode="clearArea1Width" heightNode="clearArea1Height"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="1" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="levelArea1Start" widthNode="levelArea1Width" heightNode="levelArea1Height" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+
+    <indoorAreas>
+        <indoorArea startNode="indoorArea1Start" widthNode="indoorArea1Width" heightNode="indoorArea1Height" />
+    </indoorAreas>
+
+    <tipOcclusionUpdateAreas>
+        <tipOcclusionUpdateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+    </tipOcclusionUpdateAreas>
+
+    <ai>
+        <updateAreas>
+            <updateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+        </updateAreas>
+    </ai>
+
+    <infoTrigger triggerNode="infoTrigger"/>
+
+    <lights>
+        <group weatherRequiredFlags="NIGHT" />
+
+        <sharedLight filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight.xml" linkNode="linkedLight3" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight.xml" linkNode="linkedLight4" groupIndex="1"/>
+
+        <lightShape node="interiorSelfIllum"    groupIndex="1"/>
+        <lightShape node="interiorSelfIllumLOD" groupIndex="1"/>
+
+        <realLights>
+            <low>
+                <light node="realLightsLow" groupIndex="1"/>
+            </low>
+            <high>
+                <light node="realLightsHigh" groupIndex="1"/>
+            </high>
+        </realLights>
+    </lights>
+	
+    <hotspots>
+        <hotspot type="PRODUCTION_POINT" linkNode="unloadTriggerMarker" teleportNode="unloadTriggerMarker" />
+    </hotspots>
+	
+    <productionPoint>
+        <productions sharedThroughputCapacity="false">
+            <production id="egg" name="$l10n_fillType_egg" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="EGG" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="EGG" amount="1" />
+                </outputs>
+			</production>
+            <production id="wool" name="$l10n_fillType_wool" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="WOOL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="WOOL" amount="1" />
+                </outputs>
+            </production>
+            <production id="flour" name="$l10n_fillType_flour" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="FLOUR" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="FLOUR" amount="1" />
+                </outputs>
+            </production>
+            <production id="bread" name="$l10n_fillType_bread" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="BREAD" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="BREAD" amount="1" />
+                </outputs>
+            </production>
+            <production id="cake" name="$l10n_fillType_cake" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="CAKE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="CAKE" amount="1" />
+                </outputs>
+            </production>
+            <production id="butter" name="$l10n_fillType_butter" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="BUTTER" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="BUTTER" amount="1" />
+                </outputs>
+            </production>
+            <production id="cheese" name="$l10n_fillType_cheese" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="CHEESE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="CHEESE" amount="1" />
+                </outputs>
+            </production>
+            <production id="fabric" name="$l10n_fillType_fabric" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="FABRIC" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="FABRIC" amount="1" />
+                </outputs>
+            </production>
+            <production id="clothes" name="$l10n_fillType_clothes" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="CLOTHES" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="CLOTHES" amount="1" />
+                </outputs>
+            </production>
+            <production id="sugar" name="$l10n_fillType_sugar" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="SUGAR" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="SUGAR" amount="1" />
+                </outputs>
+            </production>
+            <production id="honey" name="$l10n_fillType_honey" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="HONEY" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="HONEY" amount="1" />
+                </outputs>
+            </production>
+            <production id="cereal" name="$l10n_fillType_cereal" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="CEREAL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="CEREAL" amount="1" />
+                </outputs>
+            </production>
+            <production id="sunflower_oil" name="$l10n_fillType_sunflowerOil" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="SUNFLOWER_OIL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="SUNFLOWER_OIL" amount="1" />
+                </outputs>
+            </production>
+            <production id="canola_oil" name="$l10n_fillType_canolaOil" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="CANOLA_OIL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="CANOLA_OIL" amount="1" />
+                </outputs>
+            </production>
+            <production id="olive_oil" name="$l10n_fillType_oliveOil" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="OLIVE_OIL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="OLIVE_OIL" amount="1" />
+                </outputs>
+            </production>
+            <production id="raisins" name="$l10n_fillType_raisins" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="RAISINS" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="RAISINS" amount="1" />
+                </outputs>
+            </production>
+            <production id="grapejuice" name="$l10n_fillType_grapeJuice" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="GRAPEJUICE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="GRAPEJUICE" amount="1" />
+                </outputs>
+            </production>
+            <production id="lettuce" name="$l10n_fillType_lettuce" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="LETTUCE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="LETTUCE" amount="1" />
+                </outputs>
+            </production>
+            <production id="tomato" name="$l10n_fillType_tomato" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="TOMATO" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="TOMATO" amount="1" />
+                </outputs>
+            </production>
+            <production id="strawberry" name="$l10n_fillType_strawberry" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="STRAWBERRY" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="STRAWBERRY" amount="1" />
+                </outputs>
+            </production>
+            <production id="chocolate" name="$l10n_fillType_chocolate" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="CHOCOLATE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="CHOCOLATE" amount="1" />
+                </outputs>
+            </production>
+            <production id="boards" name="$l10n_fillType_boards" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="BOARDS" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="BOARDS" amount="1" />
+                </outputs>
+            </production>
+            <production id="furniture" name="$l10n_fillType_furniture" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="FURNITURE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="FURNITURE" amount="1" />
+                </outputs>
+            </production>
+        </productions>
+
+        <sellingStation node="sellingStation" appearsOnStats="false" supportsExtension="false" allowMissions="false" hideFromPricesMenu="true">
+            <unloadTrigger exactFillRootNode="unloadTrigger" aiNode="unloadTriggerAINode" fillTypes="EGG WOOL FLOUR BREAD CAKE BUTTER CHEESE FABRIC CLOTHES SUGAR HONEY CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL RAISINS GRAPEJUICE LETTUCE TOMATO STRAWBERRY CHOCOLATE BOARDS FURNITURE"/>
+        </sellingStation>
+
+        <palletSpawner node="palletSpawner">
+            <spawnPlaces>
+                <spawnPlace startNode="palletSpawnerArea1Start" />
+                <spawnPlace startNode="palletSpawnerArea2Start" />
+                <spawnPlace startNode="palletSpawnerArea3Start" />
+                <spawnPlace startNode="palletSpawnerArea4Start" />
+            </spawnPlaces>
+        </palletSpawner>
+
+        <storage isExtension="false" fillLevelSyncThreshold="0">
+            <capacity fillType="EGG"      capacity="140000" /> <!-- 1400L/380kg -->
+            <capacity fillType="WOOL"      capacity="100000" /> <!-- 1000L/580kg -->
+            <capacity fillType="FLOUR"       capacity="100000" /> <!-- 1000L/270kg -->
+            <capacity fillType="BREAD"        capacity="100000" /> <!-- 1000L/350kg -->
+            <capacity fillType="CAKE"     capacity="40000" /> <!-- 400L/370kg -->
+            <capacity fillType="BUTTER" capacity="100000" /> <!-- 1000L/960kg -->
+            <capacity fillType="CHEESE"      capacity="100000" /> <!-- 1000L/560kg -->
+            <capacity fillType="FABRIC"       capacity="100000" /> <!-- 1000L/560kg -->
+            <capacity fillType="CLOTHES"       capacity="100000" /> <!-- 1000L/360kg -->
+            <capacity fillType="SUGAR"       capacity="100000" /> <!-- 1000L/950kg -->
+            <capacity fillType="HONEY"       capacity="40000" /> <!-- 400L/680kg -->
+            <capacity fillType="CEREAL"       capacity="100000" /> <!-- 1000L/660kg -->
+            <capacity fillType="SUNFLOWER_OIL"       capacity="100000" /> <!-- 1000L/1000kg -->
+            <capacity fillType="CANOLA_OIL"       capacity="100000" /> <!-- 1000L/1000kg -->
+            <capacity fillType="OLIVE_OIL"       capacity="100000" /> <!-- 1000L/1000kg -->
+            <capacity fillType="RAISINS"       capacity="100000" /> <!-- 1000L/700kg -->
+            <capacity fillType="GRAPEJUICE"       capacity="43200" /> <!-- 432L/492kg -->
+            <capacity fillType="LETTUCE"       capacity="50000" /> <!-- 500L/400kg -->
+            <capacity fillType="TOMATO"       capacity="50000" /> <!-- 500L/400kg -->
+            <capacity fillType="STRAWBERRY"       capacity="50000" /> <!-- 500L/400kg -->
+            <capacity fillType="CHOCOLATE"       capacity="100000" /> <!-- 1000L/1100kg -->
+            <capacity fillType="BOARDS"       capacity="100000" /> <!-- 1000L/1100kg -->
+            <capacity fillType="FURNITURE"       capacity="100000" /> <!-- 1000L/1100kg -->
+        </storage>
+
+        <playerTrigger node="playerTrigger" />
+
+    </productionPoint>
+
+    <triggerMarkers>
+        <triggerMarker node="warningStripesSpawn" />
+		<triggerMarker node="warningStripesUnload" />
+        <triggerMarker node="playerTriggerMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="WRENCH" adjustToGround="true" />
+        <triggerMarker node="unloadTriggerMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="UNLOAD" adjustToGround="true" />
+        <triggerMarker node="spawnTriggerMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="LOAD" adjustToGround="true" />
+    </triggerMarkers>
+
+    <i3dMappings>
+        <i3dMapping id="interiorSelfIllum" node="0>0|0|0|1" />
+        <i3dMapping id="interiorSelfIllumLOD" node="0>0|1|0|1" />
+        <i3dMapping id="realLightsLow" node="0>0|1|0|1" />
+        <i3dMapping id="realLightsHigh" node="0>0|1|0|1" />
+        <i3dMapping id="linkedLight3" node="0>1|4|0|0" />
+        <i3dMapping id="linkedLight4" node="0>1|4|0|1" />
+        <i3dMapping id="testArea1Start" node="0>12|0" />
+        <i3dMapping id="testArea1End" node="0>12|0|0" />
+        <i3dMapping id="clearArea1Start" node="0>4|0" />
+        <i3dMapping id="clearArea1Width" node="0>4|0|0" />
+        <i3dMapping id="clearArea1Height" node="0>4|0|1" />
+        <i3dMapping id="levelArea1Start" node="0>5|0" />
+        <i3dMapping id="levelArea1Width" node="0>5|0|0" />
+        <i3dMapping id="levelArea1Height" node="0>5|0|1" />
+        <i3dMapping id="indoorArea1Start" node="0>6|0" />
+        <i3dMapping id="indoorArea1Width" node="0>6|0|0" />
+        <i3dMapping id="indoorArea1Height" node="0>6|0|1" />
+        <i3dMapping id="tipOcclusionUpdateArea1Start" node="0>3|0" />
+        <i3dMapping id="tipOcclusionUpdateArea1End" node="0>3|0|0" />
+        <i3dMapping id="infoTrigger" node="0>7" />
+        <i3dMapping id="warningStripesSpawn" node="0>8|0" />
+        <i3dMapping id="warningStripesUnload" node="0>8|1" />
+        <i3dMapping id="playerTrigger" node="0>9|0" />
+        <i3dMapping id="playerTriggerMarker" node="0>9|1" />
+        <i3dMapping id="sellingStation" node="0>10" />
+        <i3dMapping id="unloadTrigger" node="0>10|0" />
+        <i3dMapping id="unloadTriggerMarker" node="0>10|1" />
+        <i3dMapping id="unloadTriggerAINode" node="0>10|2" />
+        <i3dMapping id="palletSpawner" node="0>11" />
+        <i3dMapping id="palletSpawnerArea4Start" node="0>11|0" />
+        <i3dMapping id="palletSpawnerArea4End" node="0>11|0|0" />
+        <i3dMapping id="palletSpawnerArea3Start" node="0>11|1" />
+        <i3dMapping id="palletSpawnerArea3End" node="0>11|1|0" />
+        <i3dMapping id="palletSpawnerArea2Start" node="0>11|2" />
+        <i3dMapping id="palletSpawnerArea2End" node="0>11|2|0" />
+        <i3dMapping id="palletSpawnerArea1Start" node="0>11|3" />
+        <i3dMapping id="palletSpawnerArea1End" node="0>11|3|0" />
+        <i3dMapping id="spawnTriggerMarker" node="0>11|4" />
+    </i3dMappings>
+</placeable>
