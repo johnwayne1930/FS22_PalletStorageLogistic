@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="64">
     <author>johnwayne1930</author>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
 
 	<title>
 		<en>Pallet Storage And Logistics</en>
@@ -28,7 +28,11 @@ Eggs, Wool, Flour, Bread, Cake, Butter, Cheese, Fabric, Clothes, Sugar, Honey, C
 
 Known bugs:
 On pallet storing there is a rounding error in the game sometimes which loses one liter (1L) of the product.
-In that case one pallet can no longer be unloaded but the remaining product can still be distributed or sold directly.]]></en>
+In that case one pallet can no longer be unloaded but the remaining product can still be distributed or sold directly.
+
+Changelog:
+1.0.0.1
+- update Mod/Store icon]]></en>
 <de><![CDATA[
 Die Palettenlager und Logistikhalle ermöglicht es Standard-Produktionspaletten zu lagern und zwischen den Produktionen zu verteilen. Die Halle verwendet die Standard-Produktionsfunktion.
 Keine Lust mehr auf einen vollen Gewächshaus-Palettenspawn? Alle Hauptprodukte sollen auf einem gemeinsamen Punkt ausgelagert werden?
@@ -48,7 +52,11 @@ Eier, Wolle, Mehl, Brot, Kuchen, Butter, Käse, Stoff, Kleidung, Zucker, Honig, 
 
 Bekannte Probleme:
 Beim Einlagern kann es vorkommen das durch einen Rundungsfehler im Spiel ein Liter (1L) vom Produkt verloren geht.
-Ist das der Fall kann nur eine Palette weniger ausgelagert werden, das Produkt kann jedoch weiter verteilt oder  direkt verkauft werden.]]></de>
+Ist das der Fall kann nur eine Palette weniger ausgelagert werden, das Produkt kann jedoch weiter verteilt oder  direkt verkauft werden.
+
+Changelog:
+1.0.0.1
+- update Mod/Store icon]]></de>
 	</description>
 
     <iconFilename>icon_storageLogistics.dds</iconFilename>
