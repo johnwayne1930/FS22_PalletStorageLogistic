@@ -21,8 +21,8 @@ Options for the warehouse products:
 
 Be cautious on changing the options for products to the full hour, or you might sell by mistake.
 
-Price: 50.000$
-Dayly upkeep: 60$ / day
+Price: 50.000 $
+Dayly upkeep: 60 $/day
 Capacity: 100 pallets each
 Eggs, Wool, Flour, Bread, Cake, Butter, Cheese, Fabric, Clothes, Sugar, Honey, Cereal, Sunflower Oil, Canola Oil, Olive Oil, Raisins, Grapejuice, Lettuce, Tomato, Strawberry, Chocolate, Boards, Furniture
 
@@ -30,8 +30,8 @@ Known bugs:
 On pallet storing there is a rounding error in the game sometimes which loses one liter (1L) of the product.
 In that case one pallet can no longer be unloaded but the remaining product can still be distributed or sold directly.]]></en>
 <de><![CDATA[
-Die Palettenlager und Logistik Halle ermöglicht es standard Produktionspaletten zu lagern und zwischen den Produktionen zu verteilen. Die Halle verwendet die standard Produktions funktion.
-Keine lust mehr auf einen vollen Gewächshaus Palettenspawn? Alle Hauptprodukte sollen auf einem gemeinsamen Punkt ausgelagert werden?
+Die Palettenlager und Logistikhalle ermöglicht es Standard-Produktionspaletten zu lagern und zwischen den Produktionen zu verteilen. Die Halle verwendet die Standard-Produktionsfunktion.
+Keine Lust mehr auf einen vollen Gewächshaus-Palettenspawn? Alle Hauptprodukte sollen auf einem gemeinsamen Punkt ausgelagert werden?
 Stelle das Produkt aus einer Produktion auf Verteilen und es wird automatisch in diese Halle eingelagert bzw. bei Zwischenprodukten weiterverteilt wenn nötig.
 
 Produkte in der Halle einstellen auf:
@@ -39,15 +39,15 @@ Produkte in der Halle einstellen auf:
 - Behalten, um die Paletten in den Ausladebereich auszulagern um diese manuell zu verkaufen oder zu weiter zu transportieren.
 - Verkaufen, um die Paletten stetig automatisch direkt zu verkaufen.
 
-Vorsicht beim verstellen der Produkteinstellung zur vollen Stunde, versehentliches verkaufen möglich.
+Vorsicht beim Verstellen der Produkteinstellung zur vollen Stunde, versehentliches verkaufen möglich.
 
-Preis: 50.000€
-Unterhalt: 60€ / Tag
+Preis: 50.000 €
+Unterhalt: 60 €/Tag
 Kapazität: 100 Paletten jeweils
 Eier, Wolle, Mehl, Brot, Kuchen, Butter, Käse, Stoff, Kleidung, Zucker, Honig, Müsli, Sonnenblumenöl, Rapsöl, Olivenöl, Rosinen, Traubensaft, Salat, Tomaten, Erdbeeren, Schokolade, Bretter, Möbel
 
 Bekannte Probleme:
-Beim einlagern kann es vorkommen das durch einen Rundungsfehler im Spiel ein Liter (1L) vom Produkt verloren geht.
+Beim Einlagern kann es vorkommen das durch einen Rundungsfehler im Spiel ein Liter (1L) vom Produkt verloren geht.
 Ist das der Fall kann nur eine Palette weniger ausgelagert werden, das Produkt kann jedoch weiter verteilt oder  direkt verkauft werden.]]></de>
 	</description>
 
