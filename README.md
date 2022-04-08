@@ -19,5 +19,5 @@ _%\Documents\My Games\FarmingSimulator2022\mods_ directory
 * activate the mod ingame
 
 #### Installation ModHub:
-* download [Pallet Storage And Logistics (johnwayne1930)]() from the ingame Modhub
+* download [Pallet Storage And Logistics (johnwayne1930)](https://farming-simulator.com/mod.php?mod_id=237594) from the ingame Modhub
 * activate the mod ingame
