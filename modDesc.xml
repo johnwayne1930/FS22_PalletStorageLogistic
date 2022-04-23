@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="64">
+<modDesc descVersion="65">
     <author>johnwayne1930</author>
     <version>1.0.0.1</version>
 
@@ -15,9 +15,9 @@ Tired of a full greenhouse pallet spawn? Want to output all main products in one
 Activate the option distribute in your production line and the pallets will be stored in the warehouse or distributed to other productions if needed.
 
 Options for the warehouse products:
-- distribute, to store the pallets. Activate the 'production' of the warehouse to distribute the pallets into your production buildings.
+- distribute, to distribute the pallets into your production buildings.
 - store, to unload the pallets on the trigger for further manual transportation or selling.
-- sell, to auto direct sell the pallets continuous on the current market.
+- sell, to auto direct sell the pallets on every full hour.
 
 Be cautious on changing the options for products to the full hour, or you might sell by mistake.
 
@@ -32,16 +32,18 @@ In that case one pallet can no longer be unloaded but the remaining product can 
 
 Changelog:
 1.0.0.1
-- update Mod/Store icon]]></en>
+- update Mod/Store icon
+- updated description
+]]></en>
 <de><![CDATA[
 Die Palettenlager und Logistikhalle ermöglicht es Standard-Produktionspaletten zu lagern und zwischen den Produktionen zu verteilen. Die Halle verwendet die Standard-Produktionsfunktion.
 Keine Lust mehr auf einen vollen Gewächshaus-Palettenspawn? Alle Hauptprodukte sollen auf einem gemeinsamen Punkt ausgelagert werden?
 Stelle das Produkt aus einer Produktion auf Verteilen und es wird automatisch in diese Halle eingelagert bzw. bei Zwischenprodukten weiterverteilt wenn nötig.
 
 Produkte in der Halle einstellen auf:
-- Verteilen, um die Paletten eingelagert zu lassen. Aktiviere die 'Produktion' der Halle um die Paletten automatisch zu verteilen.
+- Verteilen, um die Paletten automatisch zu verteilen.
 - Behalten, um die Paletten in den Ausladebereich auszulagern um diese manuell zu verkaufen oder zu weiter zu transportieren.
-- Verkaufen, um die Paletten stetig automatisch direkt zu verkaufen.
+- Verkaufen, um die Paletten zur vollen Stunde automatisch direkt zu verkaufen.
 
 Vorsicht beim Verstellen der Produkteinstellung zur vollen Stunde, versehentliches verkaufen möglich.
 
@@ -56,7 +58,9 @@ Ist das der Fall kann nur eine Palette weniger ausgelagert werden, das Produkt k
 
 Changelog:
 1.0.0.1
-- update Mod/Store icon]]></de>
+- Update Mod/Store icon
+- Beschreibung angepasst
+]]></de>
 	</description>
 
     <iconFilename>icon_storageLogistics.dds</iconFilename>
