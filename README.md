@@ -1,4 +1,4 @@
-# FS22_PalletStorageLogistic v1.0.0.0
+# FS22_PalletStorageLogistic v1.0.0.1
 Mod for Farming Simulator 22 
 
 #### Description
