@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="65">
+<modDesc descVersion="72">
     <author>johnwayne1930</author>
-    <version>1.0.0.1</version>
+    <version>1.1.0.0</version>
 
 	<title>
 		<en>Pallet Storage And Logistics</en>
@@ -25,12 +25,18 @@ Price: 50.000 $
 Dayly upkeep: 60 $/day
 Capacity: 100 pallets each
 Eggs, Wool, Flour, Bread, Cake, Butter, Cheese, Fabric, Clothes, Sugar, Honey, Cereal, Sunflower Oil, Canola Oil, Olive Oil, Raisins, Grapejuice, Lettuce, Tomato, Strawberry, Chocolate, Boards, Furniture
+Armoire, Barrel, Bathtub, Birdhouse, Bowl, Bucket, Cartonroll, Cattree, Chair, Doghouse, Easel, Floortiles, Metal, Paperroll, Peppergrinder, Pictureframe, Planks, Prefabwall, Shingle, Staircaserailing, Table, Woodbeam
 
 Known bugs:
 On pallet storing there is a rounding error in the game sometimes which loses one liter (1L) of the product.
 In that case one pallet can no longer be unloaded but the remaining product can still be distributed or sold directly.
 
 Changelog:
+1.1.0.0
+- added Platinum Edition products
+- updated description
+- RU translation added
+
 1.0.0.1
 - update Mod/Store icon
 - updated description
@@ -51,12 +57,18 @@ Preis: 50.000 €
 Unterhalt: 60 €/Tag
 Kapazität: 100 Paletten jeweils
 Eier, Wolle, Mehl, Brot, Kuchen, Butter, Käse, Stoff, Kleidung, Zucker, Honig, Müsli, Sonnenblumenöl, Rapsöl, Olivenöl, Rosinen, Traubensaft, Salat, Tomaten, Erdbeeren, Schokolade, Bretter, Möbel
+Schrank, Fass, Badewanne, Vogelhaus, Schüssel, Eimer, Kartonrolle, Katzbaum, Stuhl, Hundehütte, Staffelei, Holzfliesen, Metall, Papierrolle, Pfeffermühle, Bilderrahmen, Lange Bretter, Fertigwand, Schindel, Treppengeländer, Tisch, Holzbalken
 
 Bekannte Probleme:
 Beim Einlagern kann es vorkommen das durch einen Rundungsfehler im Spiel ein Liter (1L) vom Produkt verloren geht.
 Ist das der Fall kann nur eine Palette weniger ausgelagert werden, das Produkt kann jedoch weiter verteilt oder  direkt verkauft werden.
 
 Changelog:
+1.1.0.0
+- Platinum Edition Produkte hinzugefügt
+- Beschreibung angepasst
+- RU übersetzung hinzugefügt
+
 1.0.0.1
 - Update Mod/Store icon
 - Beschreibung angepasst
@@ -64,15 +76,17 @@ Changelog:
 	</description>
 
     <iconFilename>icon_storageLogistics.dds</iconFilename>
-	
+
     <multiplayer supported="true" />
 
     <storeItems>
         <storeItem xmlFilename="storageLogistics.xml"/>
     </storeItems>
-	
-	<l10n>
+
+    <l10n filenamePrefix="localization/l10n"/>
+
+	<!-- <l10n>
         <text name="shopItem_storageLogistic"> <en>Pallet storage and logistics warehouse</en> <de>Palettenlager und Logistik Halle</de> </text>
         <text name="function_storageLogistic"> <en>Stores and distributes pallets</en> <de>Lagert und verteilt Paletten</de> </text>
-	</l10n>
+	</l10n> -->
 </modDesc>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<l10n>
+    <!-- <translationContributors></translationContributors> -->
+    <texts>
+        <text name="shopItem_storageLogistic" text="Pallet storage and logistics warehouse" />
+        <text name="function_storageLogistic" text="Stores and distributes pallets" />
+        <text name="fillType_armoire" text="Armoire" />
+        <text name="fillType_barrel" text="Barrel" />
+        <text name="fillType_bathtub" text="Bathtub" />
+        <text name="fillType_birdhouse" text="Birdhouse" />
+        <text name="fillType_bowl" text="Bowl" />
+        <text name="fillType_bucket" text="Bucket" />
+        <text name="fillType_cartonroll" text="Cartonroll" />
+        <text name="fillType_cattree" text="Cattree" />
+        <text name="fillType_chair" text="Chair" />
+        <text name="fillType_doghouse" text="Doghouse" />
+        <text name="fillType_easel" text="Easel" />
+        <text name="fillType_floortiles" text="Floortiles" />
+        <text name="fillType_metal" text="Metal" />
+        <text name="fillType_paperroll" text="Paperroll" />
+        <text name="fillType_peppergrinder" text="Peppergrinder" />
+        <text name="fillType_pictureframe" text="Pictureframe" />
+        <text name="fillType_planks" text="Planks" />
+        <text name="fillType_prefabwall" text="Prefabwall" />
+        <text name="fillType_shingle" text="Shingle" />
+        <text name="fillType_staircaserailing" text="Staircaserailing" />
+        <text name="fillType_table" text="Table" />
+        <text name="fillType_woodbeam" text="Woodbeam" />
+    </texts>
+</l10n>

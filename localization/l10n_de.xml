@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<l10n>
+    <!-- <translationContributors></translationContributors> -->
+    <texts>
+        <text name="shopItem_storageLogistic" text="Palettenlager und Logistik Halle" />
+        <text name="function_storageLogistic" text="Lagert und verteilt Paletten" />
+        <text name="fillType_armoire" text="Schrank" />
+        <text name="fillType_barrel" text="Fass" />
+        <text name="fillType_bathtub" text="Badewanne" />
+        <text name="fillType_birdhouse" text="Vogelhaus" />
+        <text name="fillType_bowl" text="Schüssel" />
+        <text name="fillType_bucket" text="Eimer" />
+        <text name="fillType_cartonroll" text="Kartonrolle" />
+        <text name="fillType_cattree" text="Kratzbaum" />
+        <text name="fillType_chair" text="Stuhl" />
+        <text name="fillType_doghouse" text="Hundehütte" />
+        <text name="fillType_easel" text="Staffelei" />
+        <text name="fillType_floortiles" text="Holzfliesen" />
+        <text name="fillType_metal" text="Metall" />
+        <text name="fillType_paperroll" text="Papierrolle" />
+        <text name="fillType_peppergrinder" text="Pfeffermühle" />
+        <text name="fillType_pictureframe" text="Bilderrahmen" />
+        <text name="fillType_planks" text="Lange Bretter" />
+        <text name="fillType_prefabwall" text="Fertigwand" />
+        <text name="fillType_shingle" text="Schindel" />
+        <text name="fillType_staircaserailing" text="Treppengeländer" />
+        <text name="fillType_table" text="Tisch" />
+        <text name="fillType_woodbeam" text="Holzbalken" />
+    </texts>
+</l10n>

@@ -276,10 +276,187 @@
                     <output fillType="FURNITURE" amount="1" />
                 </outputs>
             </production>
+			<!-- Platinum Edition products -->
+            <production id="armoire" name="$l10n_fillType_armoire" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="ARMOIRE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="ARMOIRE" amount="1" />
+                </outputs>
+            </production>
+            <production id="barrel" name="$l10n_fillType_barrel" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="BARREL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="BARREL" amount="1" />
+                </outputs>
+            </production>
+            <production id="bathtub" name="$l10n_fillType_bathtub" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="BATHTUB" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="BATHTUB" amount="1" />
+                </outputs>
+            </production>
+            <production id="birdhouse" name="$l10n_fillType_birdhouse" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="BIRDHOUSE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="BIRDHOUSE" amount="1" />
+                </outputs>
+            </production>
+            <production id="bowl" name="$l10n_fillType_bowl" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="BOWL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="BOWL" amount="1" />
+                </outputs>
+            </production>
+            <production id="bucket" name="$l10n_fillType_bucket" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="BUCKET" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="BUCKET" amount="1" />
+                </outputs>
+            </production>
+            <production id="cartonroll" name="$l10n_fillType_cartonroll" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="CARTONROLL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="CARTONROLL" amount="1" />
+                </outputs>
+            </production>
+            <production id="cattree" name="$l10n_fillType_cattree" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="CATTREE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="CATTREE" amount="1" />
+                </outputs>
+            </production>
+            <production id="chair" name="$l10n_fillType_chair" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="CHAIR" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="CHAIR" amount="1" />
+                </outputs>
+            </production>
+            <production id="doghouse" name="$l10n_fillType_doghouse" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="DOGHOUSE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="DOGHOUSE" amount="1" />
+                </outputs>
+            </production>
+            <production id="easel" name="$l10n_fillType_easel" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="EASEL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="EASEL" amount="1" />
+                </outputs>
+            </production>
+            <production id="floortiles" name="$l10n_fillType_floortiles" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="FLOORTILES" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="FLOORTILES" amount="1" />
+                </outputs>
+            </production>
+            <production id="metal" name="$l10n_fillType_metal" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="METAL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="METAL" amount="1" />
+                </outputs>
+            </production>
+            <production id="paperroll" name="$l10n_fillType_paperroll" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="PAPERROLL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="PAPERROLL" amount="1" />
+                </outputs>
+            </production>
+            <production id="peppergrinder" name="$l10n_fillType_peppergrinder" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="PEPPERGRINDER" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="PEPPERGRINDER" amount="1" />
+                </outputs>
+            </production>
+            <production id="pictureframe" name="$l10n_fillType_pictureframe" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="PICTUREFRAME" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="PICTUREFRAME" amount="1" />
+                </outputs>
+            </production>
+            <production id="planks" name="$l10n_fillType_planks" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="PLANKS" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="PLANKS" amount="1" />
+                </outputs>
+            </production>
+            <production id="prefabwall" name="$l10n_fillType_prefabwall" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="PREFABWALL" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="PREFABWALL" amount="1" />
+                </outputs>
+            </production>
+            <production id="shingle" name="$l10n_fillType_shingle" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="SHINGLE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="SHINGLE" amount="1" />
+                </outputs>
+            </production>
+            <production id="staircaserailing" name="$l10n_fillType_staircaserailing" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="STAIRCASERAILING" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="STAIRCASERAILING" amount="1" />
+                </outputs>
+            </production>
+            <production id="table" name="$l10n_fillType_table" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="TABLE" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="TABLE" amount="1" />
+                </outputs>
+            </production>
+            <production id="woodbeam" name="$l10n_fillType_woodbeam" cyclesPerHour="1000" costsPerActiveHour="0">
+                <inputs>
+                    <input fillType="WOODBEAM" amount="1" />
+                </inputs>
+                <outputs>
+                    <output fillType="WOODBEAM" amount="1" />
+                </outputs>
+            </production>
         </productions>
 
         <sellingStation node="sellingStation" appearsOnStats="false" supportsExtension="false" allowMissions="false" hideFromPricesMenu="true">
-            <unloadTrigger exactFillRootNode="unloadTrigger" aiNode="unloadTriggerAINode" fillTypes="EGG WOOL FLOUR BREAD CAKE BUTTER CHEESE FABRIC CLOTHES SUGAR HONEY CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL RAISINS GRAPEJUICE LETTUCE TOMATO STRAWBERRY CHOCOLATE BOARDS FURNITURE"/>
+            <unloadTrigger exactFillRootNode="unloadTrigger" aiNode="unloadTriggerAINode" fillTypes="EGG WOOL FLOUR BREAD CAKE BUTTER CHEESE FABRIC CLOTHES SUGAR HONEY CEREAL SUNFLOWER_OIL CANOLA_OIL OLIVE_OIL RAISINS GRAPEJUICE LETTUCE TOMATO STRAWBERRY CHOCOLATE BOARDS FURNITURE ARMOIRE BARREL BATHTUB BIRDHOUSE BOWL BUCKET CARTONROLL CATTREE CHAIR DOGHOUSE EASEL FLOORTILES METAL PAPERROLL PEPPERGRINDER PICTUREFRAME PLANKS PREFABWALL SHINGLE STAIRCASERAILING TABLE WOODBEAM"/>
         </sellingStation>
 
         <palletSpawner node="palletSpawner">
@@ -315,6 +492,29 @@
             <capacity fillType="CHOCOLATE"       capacity="100000" /> <!-- 1000L/1100kg -->
             <capacity fillType="BOARDS"       capacity="100000" /> <!-- 1000L/1100kg -->
             <capacity fillType="FURNITURE"       capacity="100000" /> <!-- 1000L/1100kg -->
+			<!-- Platinum Edition products -->
+            <capacity fillType="ARMOIRE"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="BARREL"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="BATHTUB"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="BIRDHOUSE"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="BOWL"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="BUCKET"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="CARTONROLL"       capacity="156200" /> <!-- 1562L/1300kg -->
+            <capacity fillType="CATTREE"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="CHAIR"       capacity="100000" /> <!-- 1000L/570kg -->
+            <capacity fillType="DOGHOUSE"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="EASEL"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="FLOORTILES"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="METAL"       capacity="16000" /> <!-- 160L/1300kg -->
+            <capacity fillType="PAPERROLL"       capacity="156200" /> <!-- 1562L/1300kg -->
+            <capacity fillType="PEPPERGRINDER"       capacity="100000" /> <!-- 1000L/300kg -->
+            <capacity fillType="PICTUREFRAME"       capacity="100000" /> <!-- 1000L/200kg -->
+            <capacity fillType="PLANKS"       capacity="100000" /> <!-- 1000L/220kg -->
+            <capacity fillType="PREFABWALL"       capacity="100000" /> <!-- 1000L/700kg -->
+            <capacity fillType="SHINGLE"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="STAIRCASERAILING"       capacity="100000" /> <!-- 1000L/570kg -->
+            <capacity fillType="TABLE"       capacity="100000" /> <!-- 1000L/600kg -->
+            <capacity fillType="WOODBEAM"       capacity="100000" /> <!-- 1000L/750kg -->
         </storage>
 
         <playerTrigger node="playerTrigger" />
