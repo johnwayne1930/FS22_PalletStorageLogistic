@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="72">
+<modDesc descVersion="79">
     <author>johnwayne1930</author>
-    <version>1.1.0.0</version>
+    <version>1.2.0.0</version>
 
 	<title>
 		<en>Pallet Storage And Logistics</en>
@@ -13,6 +13,7 @@
 The Pallet Storage and Logistics Warehouse enables you to store and distribute standard product pallets between your production buildings by using the standard production function.
 Tired of a full greenhouse pallet spawn? Want to output all main products in one place?
 Activate the option distribute in your production line and the pallets will be stored in the warehouse or distributed to other productions if needed.
+For the Platinum- or Premium Expansion products is, of course, the Platinum- or Premium Expansion required.
 
 Options for the warehouse products:
 - distribute, to distribute the pallets into your production buildings.
@@ -25,14 +26,19 @@ Price: 50.000 $
 Dayly upkeep: 60 $/day
 Capacity: 100 pallets each
 Eggs, Wool, Flour, Bread, Cake, Butter, Cheese, Fabric, Clothes, Sugar, Honey, Cereal, Sunflower Oil, Canola Oil, Olive Oil, Raisins, Grapejuice, Lettuce, Tomato, Strawberry, Chocolate, Boards, Furniture
+From the Platinum Expansion:
 Armoire, Barrel, Bathtub, Birdhouse, Bowl, Bucket, Cartonroll, Cattree, Chair, Doghouse, Easel, Floortiles, Metal, Paperroll, Peppergrinder, Pictureframe, Planks, Prefabwall, Shingle, Staircaserailing, Table, Woodbeam
+From the Premium Expansion:
+Potato Chips, Preserved Food Carrots, Preserved Food Parsnip, Preserved Food Beetroot, Triple Soup, Carrot Soup, Parsnip Soup, Red Beet Soup, Potato Soup
 
 Known bugs:
-On pallet storing there is a rounding error in the game sometimes which loses one liter (1L) of the product.
-In that case one pallet can no longer be unloaded but the remaining product can still be distributed or sold directly.
+- On pallet storing there is a rounding error in the game sometimes which loses one liter (1L) of the product.
+  In that case one pallet can no longer be unloaded but the remaining product can still be distributed or sold directly.
+- If you do not own the Platinum Expansion you will get some errors in the log file regarding missing fillTypes.
 
 Changelog:
-1.1.0.0
+1.2.0.0
+- added Premium Edition products
 - added Platinum Edition products
 - updated description
 - RU translation added
@@ -45,6 +51,7 @@ Changelog:
 Die Palettenlager und Logistikhalle ermöglicht es Standard-Produktionspaletten zu lagern und zwischen den Produktionen zu verteilen. Die Halle verwendet die Standard-Produktionsfunktion.
 Keine Lust mehr auf einen vollen Gewächshaus-Palettenspawn? Alle Hauptprodukte sollen auf einem gemeinsamen Punkt ausgelagert werden?
 Stelle das Produkt aus einer Produktion auf Verteilen und es wird automatisch in diese Halle eingelagert bzw. bei Zwischenprodukten weiterverteilt wenn nötig.
+Für die Produkte aus der Platinum- oder Premium Expansion ist natürlich auch die Platinum- oder Premium Expansion notwendig.
 
 Produkte in der Halle einstellen auf:
 - Verteilen, um die Paletten automatisch zu verteilen.
@@ -57,14 +64,19 @@ Preis: 50.000 €
 Unterhalt: 60 €/Tag
 Kapazität: 100 Paletten jeweils
 Eier, Wolle, Mehl, Brot, Kuchen, Butter, Käse, Stoff, Kleidung, Zucker, Honig, Müsli, Sonnenblumenöl, Rapsöl, Olivenöl, Rosinen, Traubensaft, Salat, Tomaten, Erdbeeren, Schokolade, Bretter, Möbel
+Aus der Platinum Expansion:
 Schrank, Fass, Badewanne, Vogelhaus, Schüssel, Eimer, Kartonrolle, Katzbaum, Stuhl, Hundehütte, Staffelei, Holzfliesen, Metall, Papierrolle, Pfeffermühle, Bilderrahmen, Lange Bretter, Fertigwand, Schindel, Treppengeländer, Tisch, Holzbalken
+Aus der Premium Expansion:
+Kartoffelchips, Karotten Dosen, Pastinaken Dosen, Rote Beete Dosen, Dreierlei-Suppe, Karottensuppe, Pastinakensuppe, Rote Beete Suppe, Kartoffelsuppe
 
 Bekannte Probleme:
-Beim Einlagern kann es vorkommen das durch einen Rundungsfehler im Spiel ein Liter (1L) vom Produkt verloren geht.
-Ist das der Fall kann nur eine Palette weniger ausgelagert werden, das Produkt kann jedoch weiter verteilt oder  direkt verkauft werden.
+- Beim Einlagern kann es vorkommen das durch einen Rundungsfehler im Spiel ein Liter (1L) vom Produkt verloren geht.
+  Ist das der Fall kann nur eine Palette weniger ausgelagert werden, das Produkt kann jedoch weiter verteilt oder  direkt verkauft werden.
+- Sollte die Platinum Expansion nicht in Besitz sein, werden fehlende fillTypes im Logfile aufgeführt.
 
 Changelog:
-1.1.0.0
+1.2.0.0
+- Premium Edition Produkte hinzugefügt
 - Platinum Edition Produkte hinzugefügt
 - Beschreibung angepasst
 - RU übersetzung hinzugefügt
@@ -79,14 +91,27 @@ Changelog:
 
     <multiplayer supported="true" />
 
+	<!-- <dependencies>
+		<dependency>FS22_A_ProductionRevamp</dependency>
+	</dependencies>	 -->
+	
+	<!-- <extraSourceFiles>
+		<sourceFile filename="scripts/revamp_check.lua"/>
+	</extraSourceFiles> -->	
+
+    <!-- <storeItems>
+        <storeItem xmlFilename="storageLogistics.xml" removeWhenFillTypes="WHEAT"/>
+    </storeItems> -->
+	
+    <!-- <revamp minVersion="1.3.5.5">
+		<storeItems>
+			<storeItem xmlFilename="storageLogisticsRevamp.xml" addWhenFillTypes="WHEAT"/>
+		</storeItems>
+	</revamp> -->
+
     <storeItems>
         <storeItem xmlFilename="storageLogistics.xml"/>
     </storeItems>
-
+		
     <l10n filenamePrefix="localization/l10n"/>
-
-	<!-- <l10n>
-        <text name="shopItem_storageLogistic"> <en>Pallet storage and logistics warehouse</en> <de>Palettenlager und Logistik Halle</de> </text>
-        <text name="function_storageLogistic"> <en>Stores and distributes pallets</en> <de>Lagert und verteilt Paletten</de> </text>
-	</l10n> -->
 </modDesc>

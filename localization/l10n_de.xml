@@ -26,5 +26,14 @@
         <text name="fillType_staircaserailing" text="Treppengeländer" />
         <text name="fillType_table" text="Tisch" />
         <text name="fillType_woodbeam" text="Holzbalken" />
+        <text name="fillType_soupcansmixed" text="Dreierlei-Suppe" />
+        <text name="fillType_preservedcarrots" text="Karotten Dosen" />
+        <text name="fillType_soupcanscarrots" text="Karottensuppe" />
+        <text name="fillType_potatochips" text="Kartoffelchips" />
+        <text name="fillType_soupcanspotato" text="Kartoffelsuppe" />
+        <text name="fillType_preservedparsnip" text="Pastinaken Dosen" />
+        <text name="fillType_soupcansparsnip" text="Pastinakensuppe" />
+        <text name="fillType_soupcansbeetroot" text="Rote Beete Suppe" />
+        <text name="fillType_preservedbeetroot" text="Rote Beete Dosen" />
     </texts>
 </l10n>
